@@ -85,3 +85,11 @@ The table shows which part is wired to which Arduino pin. Pins were chosen so th
 **2. Slow or missing GPS fix.** The first fix can take minutes and often fails indoors. The code checks that the position is valid and otherwise sends "GPS Signal Not Found". Switching the device on near a window or outdoors helps.
 
 **3. Accidental alerts.** A quick press by mistake would send false alarms, so the SOS starts only after a 2-second hold, confirmed by the buzzer.
+
+
+## Credits
+
+- Original Project Author: [Meherab Hossain](https://github.com/Meherab-hsn)
+- Contributor: [Md. Mahin Ali](https://github.com/MahinDeveloper)
+
+This project is based on the original work by Meherab Hossain.
